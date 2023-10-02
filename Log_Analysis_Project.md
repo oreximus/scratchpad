@@ -17,3 +17,12 @@
     4. [**Logtail**](https://betterstack.com/logs?gad=1)
     5. [**GoAccess**](https://goaccess.io/)
     6. [**AWStats**](https://awstats.sourceforge.io/)
+
+## Testing Softwares Installation Procedure:
+
+1. **Graylog Installation**
+
+- Followed According to it's documentation Instruction;
+    👉[**Instructions for Installation**](https://go2docs.graylog.org/5-1/downloading_and_installing_graylog/ubuntu_installation.html)👈
+    1. Installing Mongodb and Opensearch for Dependency,
+    2. Then Config the Opensearch YAML file.
