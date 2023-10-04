@@ -26,3 +26,8 @@
     👉[**Instructions for Installation**](https://go2docs.graylog.org/5-1/downloading_and_installing_graylog/ubuntu_installation.html)👈
     1. Installing Mongodb and Opensearch for Dependency,
     2. Then Config the Opensearch YAML file.
+
+
+#### Graylog Functionality:
+
+
