@@ -30,7 +30,7 @@
 
 #### Graylog Functionality:
 
-![img01](imgs/img01.png)
+![img01](imgs/graylog_img01.png)
 
 - Defining Ports and Inputs, to get the particular data from running service on the machine.
 
