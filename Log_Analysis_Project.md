@@ -48,6 +48,6 @@
 
 - Support Custom configuration and settings to manage data with prepared queries.
 
-- Notifications facility (able inform to clients and owners by sending a copy of report)
+- Notifications facility (able to inform to clients and owners by sending a copy of report)
 
 - Pulling Up data from multiple sources (services) and able to create custom data extractor for specific need.
