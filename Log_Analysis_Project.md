@@ -30,4 +30,24 @@
 
 #### Graylog Functionality:
 
+![img01](imgs/img01.png)
 
+- Defining Ports and Inputs, to get the particular data from running service on the machine.
+
+- Data is then **Stored** in **two forms** : **unstructured** and **structured**.
+
+- The **Structured Data** is much convenient cause it helps to categorize and analyze the data, but we've also an option to **search through unstructured data** just in needed case.
+
+- Then It'll prepare the Index according to the Final Log Data we get.
+
+#### Inspiration from Graylog:
+
+- The ecosystem is clean and simple.
+
+- ID Reference to the logs, especially better for creating a custom category to view some specific data.
+
+- Support Custom configuration and settings to manage data with prepared queries.
+
+- Notifications facility (able inform to clients and owners by sending a copy of report)
+
+- Pulling Up data from multiple sources (services) and able to create custom data extractor for specific need.
