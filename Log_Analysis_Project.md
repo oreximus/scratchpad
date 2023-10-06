@@ -51,3 +51,13 @@
 - Notifications facility (able to inform to clients and owners by sending a copy of report)
 
 - Pulling Up data from multiple sources (services) and able to create custom data extractor for specific need.
+
+2. **Nagios Core 
+
+## Project Discussion:
+
+### Project Design:
+
+#### Logs Fetching Manner:
+
+- All important logs will be fetched in a raw manner first (unstructured data) and their is also a option in the UI Logs Viewer Panel to checkout the **raw logs**
