@@ -52,7 +52,7 @@
 
 - Pulling Up data from multiple sources (services) and able to create custom data extractor for specific need.
 
-2. **Nagios Core 
+2. **Nagios Core** 
 
 ## Project Discussion:
 
