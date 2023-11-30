@@ -59,3 +59,25 @@
 ### Common Attacks
 
 - PATH Traversal/File Inclusion
+
+## Tools Usages:
+
+### Rustscan commands:
+
+```
+rustscan -a <your-testing-ip> -- -sC -sV -oN tools/nmap/test_output -vv
+```
+
+### If Website is redirect to a Domain, then:
+
+- add the domain name to your host file!
+
+```
+10.10.11.242  devvortex.htb
+```
+
+### For Subdomain Enumeration with FFUF
+
+```
+ffuf -w ~/wordlists/subdomains.txt -H "Host: FUZZ.ffuf.me" -u http://ffuf.me
+```
