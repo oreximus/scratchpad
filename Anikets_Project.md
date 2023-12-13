@@ -6,4 +6,11 @@
 
 ### source: https://cea.nic.in/wp-content/uploads/notification/2021/10/Guidelines_on_Cyber_Security_in_Power_Sector_2021-2.pdf
 
-- 
+
+## Application Tech-Layout
+
+### Mainscreen (Login-Page)
+
+- It will provide the Interface for Login into the User Personalized Dashboard.
+(feature to register users and save their profile data in encrypted form locally in the Centralized System(from the Application is being Used!))
+    - 
