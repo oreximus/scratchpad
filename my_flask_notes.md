@@ -56,5 +56,6 @@ creating a simple web application using **flask official tutorial documenation**
 
 ### Blueprints and Views
 
-- 
+### Jinja Language
+
 
