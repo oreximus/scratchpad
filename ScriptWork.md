@@ -1,4 +1,4 @@
-# PyExploitDB Script:
+# Script Work
 
 ### source: https://github.com/GoVanguard/pyExploitDb1
 
