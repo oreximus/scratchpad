@@ -1,7 +1,5 @@
 # Script Work
 
-### source: https://github.com/GoVanguard/pyExploitDb1
-
 ## To Achieve
 
 - creating an script which takes input, of sevices and applications names and tell us the Available Vulnerabilities for it!
