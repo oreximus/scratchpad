@@ -18,7 +18,7 @@ python -m venv .env
 
 2.
 ```
-source .env/bin/activate
+./env/Scripts/Activate.ps1
 ```
 
 - Install all the flask and essential packages to run the web-app, if not installed
