@@ -37,3 +37,18 @@ pip install flask python3-nmap
 ```
 flask --app flaskr run --debug
 ```
+
+### Running Scanner Script separately
+
+- Make sure that you're in the python virtual environment, and have python3-nmap is installed!
+
+**command to run the script**:
+
+
+```
+python3 scanner01.py
+```
+
+**enter the valid IP**
+
+- and wait it'll scan and output the scan results as json file and as well as appear on the screen.
