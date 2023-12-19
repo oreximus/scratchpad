@@ -53,3 +53,14 @@ python3 scanner01.py
 **enter the valid IP**
 
 - and wait it'll scan and output the scan results as json file and as well as appear on the screen.
+
+
+## Instruction to Scan:
+
+- Make sure that whatever the IP you're scanning, is in network connection:
+    - check by ping the ip in your cmd:
+    ```
+    ping <ip-address>
+    ```
+    - If you are getting responses, then add it to your scan list!
+    - Scan wait for a while until, it completed!
