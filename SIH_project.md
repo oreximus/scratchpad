@@ -1,10 +1,11 @@
 ## Web App Environment!
 
-### Using WSL System to Access!
+### Using Windows CMD/Terminal
 
-- Open the WSL Instance you have: In case of Ubuntu, Open it from the Windows Start!
 
-- cd to the Working Directory, where all the Flask Files are!
+- Go to the Working Directory, where all the Flask Files are!
+
+- Right Click on the Window, and Open with Terminal.
 
 - Activate the Python Env, If not then First create One.
 
@@ -18,7 +19,7 @@ python -m venv .env
 
 2.
 ```
-./env/Scripts/Activate.ps1
+./.env/Scripts/Activate.ps1
 ```
 
 - Install all the flask and essential packages to run the web-app, if not installed
