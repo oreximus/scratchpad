@@ -49,3 +49,5 @@
 - metronom
 
 - 120-130 se start krna
+
+- guitaar boom (in flstudio)
