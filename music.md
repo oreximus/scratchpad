@@ -40,3 +40,12 @@
     - dirtyup
 
 - distortion plugin
+
+- metal/rock pack
+- bpm (beat per min)
+
+- 10-140 bpm
+
+- metronom
+
+- 120-130 se start krna
