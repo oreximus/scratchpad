@@ -95,7 +95,7 @@
 - `Size`: It's a 32bit address.
 - `Structure`: Divided into four sections (octets), each containing 8 bits.
 - `Range`: from 0 to 255,
-- `Total Possible Address`: 4.3billion
+- `Total Possible Address`: 4.3billion (4,294,967,296 unique)
 
 ### IPv6
 
@@ -167,14 +167,152 @@ ONONONOFF1111.11111111.11111111.11111111
 
 ### Class E
 
-ONONONONO000.00000000.00000000.00000000
+ONONONON000.00000000.00000000.00000000
 to
-ONONONONO111.11111111.11111111.11111111
+ONONONON111.11111111.11111111.11111111
 
 240.0.0.0 to 255.255.255.255
 
 - by adding all of the rest bits value
 - or subtracting off bit from 255
+
+# Class 04
+
+## IANA
+
+- IP Address Management
+- DNS Management
+- Protocol Assignment
+
+> `GOI`: around 90-80,
+
+from `IANA` to `GOI`, we got the connection, that's `T1`.
+
+- where it reaches that's `Gateway of India`.
+- we have a `submarine cables` connected physically to get the IP from IANA.
+
+from `GOI` to `Distribution in Country` via ISP (i.e. BSNL/JIO): `T2`
+
+from ISP to City (i.e. Indore): `T3`
+
+> `Public IP`: which ISP provide us.
+> `Private IP`: which we assign internal in our private network.
+
+- Public/Private IP is the solution to overcome the shortage of IPv4.
+
+- Reserved IPs range:
+
+  - Class A: 10.0.0.0 to 10.255.
+  - Class B: 175.16.0.0 to 10.255.
+  - Class A: 192.168.0.0 to 10.255.
+  - Special Ranges: 100.64.0.0 to 100.127.
+
+- Loopback Address: 127.0.0.1 to 127.255.
+
+### Conflicts:
+
+- You can't out of the network if you have same network IP,
+
+# Class 05
+
+##
+
+- Network first IP always allocate to the Gateway.
+- When assigning IPs network should be same, and the IP should be unique.
+- when IP is different from the current network, it take the finding IP to the `Gateway`.
+- Finding the IP in other network (which could be of the ISP), then it goes further to its gateway.
+- When we find the system, then we get back the request from the server (source becomes destination and destination becomes source i.e. vice-versa for
+  communication)
+
+### Example for accessing data or communicating betweeen IPs
+
+- communicating IPv4 to different network IPv4:
+
+  - the process of transferring the Public comming request to the private network host is `Port forwarding`.
+
+- Public-Private IP work with NATTING and Port Forwarding.
+
+> `Internet`: Public network that's available for everyone.
+> `Intranet`: Private network is also known as `Intranet`.
+
+## Class 06
+
+## Subnetting:
+
+### Subnet Mask
+
+- 32 bit address
+- 4 sections
+- Network bit on and host bit off.
+
+**Class A**:
+
+- `Format`: N.H.H.H
+- `Binary`: 111111111.00000000.00000000.00000000
+- `Default Subnet Mask`: 255.0.0.0, 8 bits of network, rest 24 bit of host
+
+// same with all Classes
+
+- Example: Class A IP Address + Class A Default Net Mask = Class Full
+
+- Example: Class A IP Address + Any Net Mask = Class Less
+
+### Subnetting:
+
+- A `subnetwork` is a logical subdivision of an IP address.
+
+### Subnetting Example:
+
+- `Subnet Mask`: 11111111.11111111.11111111.1000000
+- This subnet mask adds 1 more bit to the network portion, resulting to:
+  - `Network Bits` 25 -`Host bits` 7
+  - `Subnets`: 2^7 - 2
+
+## Classless Inter-Domain Routing (CIDR)
+
+-
+
+# Class 07
+
+## : Rules for assigning IP Addresses to a Device
+
+1. `Uniqueness`: maintaining uniqueness of IP address in a network. (If it's allocated to more than two
+   devices, will configure the IP on the first device, and else will not be configured).
+2. `Correct Network`: The IP network segment should be same on the network or subnet.
+3. `Valid IP Range`.
+4. `Avoiding Reserved IP Address while IP allocation`.
+5. `Consistend with Subnet Mask`.
+6. `Avoid Conflicts with DHCP`.
+7. `Consistent Gateway Network`.
+
+> If all of the networks bits are on and all of the hosts bits are off, they create the `network address`.
+> If all of the networks bits are off and all of the hosts bits are on, they create the `broadcast address`.
+
+# Class 08
+
+## IP Address Practical
+
+- We can't set the IP by setting the first octet bit on
+- And can't leave the host bit with the 0
+- also neither all of the host bit in the network can be 1 (reserved for broadcast address)
+- while configuring IP you'll get the subnet mask auto for that IPv4 class.
+- Jio gateway: 192.168.29.1
+- Airtel gateway: 192.168.0.1
+
+## Errors:
+
+- Host unreachable in the case same nework IP but not present in the network.
+- Trasmit failed, in the case of the different network IP.
+-
+
+## Example for allotting the Class C IP:
+
+- from 192.168.1.2 to 192.168.1.254
+
+## Practicals to do:
+
+- provide the simple IPv4 with the same network and try to communicate with the same network IP devices.
+- provide the IPv4 with a subnet mask, in both manner classless and classful
 
 ### To study:
 
@@ -184,3 +322,18 @@ ONONONONO111.11111111.11111111.11111111
 4. Classful/Classless IP
 5. Reserved IP
    - Private and Public IP
+6. DHCP
+7. Network Mask / Net Mask / Subnet Mask / Classless (again)
+8. Network Address Translation, NAT (NATTING, router uses this)
+9. Network Devices/ Network Topologies/ OSI-TCP IP Model
+
+### To study (P):
+
+1. Link Local Addressing
+
+### Practical:
+
+1. test `traceroute` (linux)
+2. test `tracert` (window)
+3. use `subnet calculator`
+4. in run dialog: `ncpa.cpl` (for IP configuration)
