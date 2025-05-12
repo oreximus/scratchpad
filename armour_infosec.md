@@ -309,6 +309,104 @@ from ISP to City (i.e. Indore): `T3`
 
 - from 192.168.1.2 to 192.168.1.254
 
+# Class 09
+
+## Topologies
+
+- Topologies by generation:
+
+  - `line topology`: devices connected in a line series. -`data transferring`: data flow can be done through every devices comes between the source and destination device.
+
+    - `data security`: every device from where the data goes can see the data.
+    - `in use`: not in practical use nowdays.
+    - `examples`: use in the decoration lights.
+
+  - `Bus Topology`: transferring data between devices through a common network line.
+
+    - `data transferring`: data flow between devices does pass along through the connected devices, and if any device
+      fails the network still works and devices can share the data to other devices.
+    - `failing situation`: when the main network line breaks.
+
+  - `Ring Topology`: all of the devices connected in the ring manner.
+
+  - `Mesh Topology`: can build network by connecting devices in any random manner, connecting any device to any.
+    (i.e. combination of multiple topologies)
+
+  - `Full Connected Topology`: all devices are connected to a single devices and sharing data through that.
+
+  - `Star Topology`: sharing data between devices through a centered placed hub device, and devices are connected
+    to this hub.
+
+## Networking Devices and Transmission Media
+
+1. Unshielded Twisted Pair Cable (UTP)
+
+   - CAT5e support speeds upto 5GB
+   - CAT6 Higher performance speeds upto 10GBps
+   - CAT6a Improved performance for longer distance
+   - cannot folded and neither can be used for very long distance.
+   - `for 100Mbps Ethernet (Fast Ethernet)`:
+     - `transmit`:
+       - Pin 1: Orange/White
+       - Pin 2: Orange
+     - `receive`:
+       - Pin 3: White/Green
+       - Pin 4: Blue
+
+> Wires color coding:
+
+    -
+
+## Class 09
+
+### MAC Address:
+
+- unique address assign to device while manufacturing, especially devices that's used for communication.
+- Wired and Wireless: they can be either wire based or wireless based.
+- Speeds: Available in various speeds, ranging from 10 Mbps (older) to 10 Gbps (modern high speed devices)
+- Wake on Lan: Some NICs supports remote power up of the device, a useful feature for remote management.
+
+###
+
+- RJ45 used in the PCs for ethernet connection.
+- RJ11 used in telephones.
+
+### Characteristics MAC Address:
+
+- Common representation:
+
+  - Colon Separated
+  - Dash Separated
+  - No Separation
+
+- 48 bit address
+  - First 24 bit: OUI - Identifies the manufacturer.
+  - Last 24 bit: Manufacture assigned unique identifier.
+
+3. Static Assignment:
+   - MAC addresses are `burned into` the NIC during manifacturing.
+   - Network Testing
+   - Mac Address Spoofing
+
+### OUI Range
+
+- Smallest address: 00:A0:C9:00:00:00
+- Largest address: 00:A0:C9:FF:FF:FF
+
+### Multicast Mac Address:
+
+- Types:
+  - `Unicast`
+  - `Multicast`
+  - `Broadcast`
+
+### Tracing MAC Address:
+
+-
+-
+
+### Example
+
 ## Practicals to do:
 
 - provide the simple IPv4 with the same network and try to communicate with the same network IP devices.
@@ -330,6 +428,10 @@ from ISP to City (i.e. Indore): `T3`
 ### To study (P):
 
 1. Link Local Addressing
+2. Wires purpose in the cables
+3. Startlink network distribution and DDH
+4. Quick Pinout Table
+5. 91 CRPC
 
 ### Practical:
 
@@ -337,3 +439,7 @@ from ISP to City (i.e. Indore): `T3`
 2. test `tracert` (window)
 3. use `subnet calculator`
 4. in run dialog: `ncpa.cpl` (for IP configuration)
+
+## Abbreviation:
+
+- `POE`: Power On Ethernet
