@@ -357,7 +357,7 @@ from ISP to City (i.e. Indore): `T3`
 
     -
 
-## Class 09
+# Class 10
 
 ### MAC Address:
 
@@ -407,10 +407,72 @@ from ISP to City (i.e. Indore): `T3`
 
 ### Example
 
+
+# Class 12 - I
+
+## Linux
+
+- Developed in 1991 by Linus Torvalds
+
+## Shell
+
+- Literal meaning: outer layer of something is a shell.
+- In technical meaning: user used this interact with kernal --> which operates hardware.
+
+## Features of Linux
+
+- Open Source (GPL License)
+- Multitasking
+- Multiuser
+- Portability
+- Security (because of its open source nature the vulnerabilities can be easily found and patched)
+- Stability and Reliability
+- Community Support
+- Performance: max utilization of your hardware.
+- Unix Compatibility
+
+# Class 12 - II
+
+## Windows
+
+## Computer Management Tools (MMC: Microsoft Management Console)
+
+- Shortcut to open this: Window + X then press `g`, or in run dialog: `compmgmt.msc`
+
+
+- `System Tools`: (Explore the apps in this!)
+    - Task Scheduling: Scheduling tasks (i.e. updates, night mode, etc.)
+        - for performing tasks on particular time.
+        - You can observe the scheduled task in task scheduler library.
+    - Event Viewer: contains logs related to the activities in our windows pc.
+
+
+
+
 ## Practicals to do:
 
 - provide the simple IPv4 with the same network and try to communicate with the same network IP devices.
 - provide the IPv4 with a subnet mask, in both manner classless and classful
+
+# Class 13
+
+## Distributions and Package Managers:
+
+1. `Debian Based`: is a free open source Linux Distibution, Developed in 1993.
+    - package: deb
+    - availability: in the compact form, contains only the core packages.
+    - associated distribution: Ubuntu, developed in 2004, first version was desktop version, (target was to replace Windows XP).
+
+2. `Red Hat Enterprise Linux`: developed in 1993
+    - beta version or testing version: Fedora OS, CentOS (free version of RHEL)
+
+# Class 13 - II
+
+### Windows Server Roles and Features:
+
+- contains various roles for various purposes.
+- that enhances the server functionalities, so the clients can take the advantages of it.
+
 
 ### To study:
 
@@ -420,10 +482,12 @@ from ISP to City (i.e. Indore): `T3`
 4. Classful/Classless IP
 5. Reserved IP
    - Private and Public IP
-6. DHCP
+6. DHCP (Again)
 7. Network Mask / Net Mask / Subnet Mask / Classless (again)
 8. Network Address Translation, NAT (NATTING, router uses this)
 9. Network Devices/ Network Topologies/ OSI-TCP IP Model
+10. Linux Distributors and Package Managers
+11. Linux Directory Structure
 
 ### To study (P):
 
@@ -443,3 +507,13 @@ from ISP to City (i.e. Indore): `T3`
 ## Abbreviation:
 
 - `POE`: Power On Ethernet
+
+## How to study
+
+1. Why do we need it, on what protocol it works on?
+2. Why it was created
+
+## Resources:
+
+
+- masgrave.dev: For Downloading windows versions
