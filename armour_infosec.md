@@ -473,6 +473,99 @@ from ISP to City (i.e. Indore): `T3`
 - contains various roles for various purposes.
 - that enhances the server functionalities, so the clients can take the advantages of it.
 
+# Class 14
+
+## Windows File System
+
+- Unhide all of the files and folders in C drive to see the actual files of the Windows
+    - Hidden Files option
+    - System Hidden Files from the properties
+
+- cmd command to all of the hidden in the drive:
+```
+dir \a
+```
+
+- `C:`, it's the root drive of the windows important files and folders.
+
+- Folders and Files Purposes:
+    - `Program Files`: contains installed programs, default folder for 64bit apps.
+    - `Program Files (x86)`: contains installed programs, default folder for 32bit apps.
+    - `Program Data`: contain the data of the programs in here, application data shared across all users.
+    - `Recovery`:
+    - `System Volume Information`:
+    - `Users`: contains **user profiles** in this folder.
+    - `Windows`:
+        - `System32`
+        - `WinSxs`
+        - `Temp`
+        - `Logs`
+    - `Recycle Bin`
+    - `PerfLogs`
+    - `Recovery`
+    - `pagefile`
+    - `swapfile`
+    - `Dump Stack Log file`
+
+### Linux File System
+
+- `/`: this the root folder location in Linux, contains all files and directory present in the system.
+- `/bin`: Essential user binaries (e.g. ls, cp, mv), Needed for booting and single user-mode.
+- `/sbin`: Essential system binaries (e.g. init, fsck, reboot), Mainly for system administration.
+- `lib`: Libraries needed for /bin and /sbin binaries.
+- `lib64`: 64-bit specific libraries.
+- `/etc`: system wide configuration files and startup scripts
+- `/dev`: contains device information
+- `/proc`: Virtual filesystem for kernel and process information.
+- `/var`: Variable data
+- `/tmp`: contains temporary files.
+- `/usr`: secodary hierarchy for user application, lib and all.
+- `/boot`: contains booting related files and grub
+- `/opt`: software installed otherwise from package manager need to kept here.
+- `/srv`: Service Data
+- `/home`: user profiles, user data
+- `/root`: contains superuser or root user home data.
+- `/mnt`: mouting point for devices
+
+### CentOS Installation
+
+- choose `Standard Partition` installation
+- 1 GB to the `/boot` partition
+- In case of 8GB RAM (we are using 4GB of Swap Storage) 
+- Then Create `/` Linux Partition
+- Then click on `Done`
+
+# Class 14 - II
+
+## Windows Server
+
+- `Server Manager`: It's a tool used to manage servers.
+- `Service`: used to start, stop the services.
+    - `Startup Type`:
+        - Automatic
+        - Automatic (Delayed Start)
+        - Enable
+        - Window Startup
+        - Disable
+
+- `Lanman` server,
+
+- `Roles and Features`:
+    - from the roles the clients can take advantage from this.
+    - from the features server will have the new functionality or power to work on.
+
+- `Local Server`:
+    - Change the server name to some memorable name.
+    - `WORKGROUP`: represent a particular department.
+    - `WINRM`: 
+    - Allow the remote connection to windows server, with allowing it access via any windows client.
+    - Changing the IP of the server from the Dynamic IP to Static IP.
+    (i.e 192.168.1.51, 255.255.255.0, 192.168.1.1) IP, Subnet, and Gateway accordingly.
+
+- Turn off the windows firewall, for our experiments.
+
+
+## Resource and HomeWork
 
 ### To study:
 
