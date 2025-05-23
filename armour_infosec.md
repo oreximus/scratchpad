@@ -564,6 +564,38 @@ dir \a
 
 - Turn off the windows firewall, for our experiments.
 
+# Class 15
+
+- Init run levels, (make a common init levels list)
+- Checking Runlevels command
+
+# Class 15 - II
+
+### Windows Server
+
+#### DHCP Configuration: 
+
+- `DHCP Server`:
+    - The Server should be `unique`
+    - The `Lease Time` configuration
+    - The firewall use port 67 for DHCP, (allow it from there if you're using a firewall).
+    - The `Gateway` and `DNS` configuration needed for this.
+    - Configuration Steps:
+        1. Installation via `Roles and Features in Windows Server Manager`:
+            - Select Server: DHCP
+            - Then later follow the steps with the default setting
+            - A Overview of the server.
+            - Then Install it, with restart the server or do as your wish.
+    - the DHCP configuration files and server files are located: `C:/Windows/System32/dhcp`.
+
+> Checking if the Network Contains a DHCP server, `By Selection Auto Obtain IP in Network Configuration Setting in Windows`
+> If it provides the 
+> In One LAN there can't be more than one DHCP Server.
+
+- If there is a DHCP Server Present in your network, for your custom configuration disable the dhcp server from the router conf.
+
+#### Role and Feature
+
 
 ## Resource and HomeWork
 
@@ -581,6 +613,7 @@ dir \a
 9. Network Devices/ Network Topologies/ OSI-TCP IP Model
 10. Linux Distributors and Package Managers
 11. Linux Directory Structure
+12. DORA Process (for Monday)
 
 ### To study (P):
 
@@ -589,6 +622,7 @@ dir \a
 3. Startlink network distribution and DDH
 4. Quick Pinout Table
 5. 91 CRPC
+6. Registeries in Windows
 
 ### Practical:
 
