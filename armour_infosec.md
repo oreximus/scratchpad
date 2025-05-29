@@ -407,7 +407,6 @@ from ISP to City (i.e. Indore): `T3`
 
 ### Example
 
-
 # Class 12 - I
 
 ## Linux
@@ -439,15 +438,11 @@ from ISP to City (i.e. Indore): `T3`
 
 - Shortcut to open this: Window + X then press `g`, or in run dialog: `compmgmt.msc`
 
-
 - `System Tools`: (Explore the apps in this!)
-    - Task Scheduling: Scheduling tasks (i.e. updates, night mode, etc.)
-        - for performing tasks on particular time.
-        - You can observe the scheduled task in task scheduler library.
-    - Event Viewer: contains logs related to the activities in our windows pc.
-
-
-
+  - Task Scheduling: Scheduling tasks (i.e. updates, night mode, etc.)
+    - for performing tasks on particular time.
+    - You can observe the scheduled task in task scheduler library.
+  - Event Viewer: contains logs related to the activities in our windows pc.
 
 ## Practicals to do:
 
@@ -459,12 +454,13 @@ from ISP to City (i.e. Indore): `T3`
 ## Distributions and Package Managers:
 
 1. `Debian Based`: is a free open source Linux Distibution, Developed in 1993.
-    - package: deb
-    - availability: in the compact form, contains only the core packages.
-    - associated distribution: Ubuntu, developed in 2004, first version was desktop version, (target was to replace Windows XP).
+
+   - package: deb
+   - availability: in the compact form, contains only the core packages.
+   - associated distribution: Ubuntu, developed in 2004, first version was desktop version, (target was to replace Windows XP).
 
 2. `Red Hat Enterprise Linux`: developed in 1993
-    - beta version or testing version: Fedora OS, CentOS (free version of RHEL)
+   - beta version or testing version: Fedora OS, CentOS (free version of RHEL)
 
 # Class 13 - II
 
@@ -478,10 +474,12 @@ from ISP to City (i.e. Indore): `T3`
 ## Windows File System
 
 - Unhide all of the files and folders in C drive to see the actual files of the Windows
-    - Hidden Files option
-    - System Hidden Files from the properties
+
+  - Hidden Files option
+  - System Hidden Files from the properties
 
 - cmd command to all of the hidden in the drive:
+
 ```
 dir \a
 ```
@@ -489,23 +487,23 @@ dir \a
 - `C:`, it's the root drive of the windows important files and folders.
 
 - Folders and Files Purposes:
-    - `Program Files`: contains installed programs, default folder for 64bit apps.
-    - `Program Files (x86)`: contains installed programs, default folder for 32bit apps.
-    - `Program Data`: contain the data of the programs in here, application data shared across all users.
-    - `Recovery`:
-    - `System Volume Information`:
-    - `Users`: contains **user profiles** in this folder.
-    - `Windows`:
-        - `System32`
-        - `WinSxs`
-        - `Temp`
-        - `Logs`
-    - `Recycle Bin`
-    - `PerfLogs`
-    - `Recovery`
-    - `pagefile`
-    - `swapfile`
-    - `Dump Stack Log file`
+  - `Program Files`: contains installed programs, default folder for 64bit apps.
+  - `Program Files (x86)`: contains installed programs, default folder for 32bit apps.
+  - `Program Data`: contain the data of the programs in here, application data shared across all users.
+  - `Recovery`:
+  - `System Volume Information`:
+  - `Users`: contains **user profiles** in this folder.
+  - `Windows`:
+    - `System32`
+    - `WinSxs`
+    - `Temp`
+    - `Logs`
+  - `Recycle Bin`
+  - `PerfLogs`
+  - `Recovery`
+  - `pagefile`
+  - `swapfile`
+  - `Dump Stack Log file`
 
 ### Linux File System
 
@@ -531,7 +529,7 @@ dir \a
 
 - choose `Standard Partition` installation
 - 1 GB to the `/boot` partition
-- In case of 8GB RAM (we are using 4GB of Swap Storage) 
+- In case of 8GB RAM (we are using 4GB of Swap Storage)
 - Then Create `/` Linux Partition
 - Then click on `Done`
 
@@ -541,25 +539,28 @@ dir \a
 
 - `Server Manager`: It's a tool used to manage servers.
 - `Service`: used to start, stop the services.
-    - `Startup Type`:
-        - Automatic
-        - Automatic (Delayed Start)
-        - Enable
-        - Window Startup
-        - Disable
+
+  - `Startup Type`:
+    - Automatic
+    - Automatic (Delayed Start)
+    - Enable
+    - Window Startup
+    - Disable
 
 - `Lanman` server,
 
 - `Roles and Features`:
-    - from the roles the clients can take advantage from this.
-    - from the features server will have the new functionality or power to work on.
+
+  - from the roles the clients can take advantage from this.
+  - from the features server will have the new functionality or power to work on.
 
 - `Local Server`:
-    - Change the server name to some memorable name.
-    - `WORKGROUP`: represent a particular department.
-    - `WINRM`: 
-    - Allow the remote connection to windows server, with allowing it access via any windows client.
-    - Changing the IP of the server from the Dynamic IP to Static IP.
+
+  - Change the server name to some memorable name.
+  - `WORKGROUP`: represent a particular department.
+  - `WINRM`:
+  - Allow the remote connection to windows server, with allowing it access via any windows client.
+  - Changing the IP of the server from the Dynamic IP to Static IP.
     (i.e 192.168.1.51, 255.255.255.0, 192.168.1.1) IP, Subnet, and Gateway accordingly.
 
 - Turn off the windows firewall, for our experiments.
@@ -573,29 +574,74 @@ dir \a
 
 ### Windows Server
 
-#### DHCP Configuration: 
+#### DHCP Configuration:
 
 - `DHCP Server`:
-    - The Server should be `unique`
-    - The `Lease Time` configuration
-    - The firewall use port 67 for DHCP, (allow it from there if you're using a firewall).
-    - The `Gateway` and `DNS` configuration needed for this.
-    - Configuration Steps:
-        1. Installation via `Roles and Features in Windows Server Manager`:
-            - Select Server: DHCP
-            - Then later follow the steps with the default setting
-            - A Overview of the server.
-            - Then Install it, with restart the server or do as your wish.
-    - the DHCP configuration files and server files are located: `C:/Windows/System32/dhcp`.
+  - The Server should be `unique`
+  - The `Lease Time` configuration
+  - The firewall use port 67 for DHCP, (allow it from there if you're using a firewall).
+  - The `Gateway` and `DNS` configuration needed for this.
+  - Configuration Steps:
+    1. Installation via `Roles and Features in Windows Server Manager`:
+       - Select Server: DHCP
+       - Then later follow the steps with the default setting
+       - A Overview of the server.
+       - Then Install it, with restart the server or do as your wish.
+  - the DHCP configuration files and server files are located: `C:/Windows/System32/dhcp`.
 
 > Checking if the Network Contains a DHCP server, `By Selection Auto Obtain IP in Network Configuration Setting in Windows`
-> If it provides the 
+> If it provides the
 > In One LAN there can't be more than one DHCP Server.
 
 - If there is a DHCP Server Present in your network, for your custom configuration disable the dhcp server from the router conf.
 
 #### Role and Feature
 
+# Class
+
+## Linux Basic Commands:
+
+- rm command:
+
+```
+// leaving file file1 and delete rest of the files
+rm -rf file[!1]
+```
+
+- ls with pattern matching:
+
+```
+ls {*.txt, *.pdf}
+```
+
+## Windows Server
+
+### Domain Name Valuation
+
+#### Domain Appraisals: Estimating the Value of a Domain Name
+
+1. TLD (Top-Level Domain)
+
+2. Domain Length and Simplicity
+
+3. Keyword Value and Search Volume
+
+4. Brandability
+
+5. Market Trends and Niche Popularity
+
+6. Existing Traffic and SEO Metrics
+
+7. Past Sales of Similar Domains
+
+## Whois
+
+- Domain Name and Status
+- Register Information
+- Registrant Details
+- Registration and Expiry Dates
+- Name Servers
+- Technical and Administrative Contacts
 
 ## Resource and HomeWork
 
@@ -614,6 +660,7 @@ dir \a
 10. Linux Distributors and Package Managers
 11. Linux Directory Structure
 12. DORA Process (for Monday)
+13. Host File and NetBIOS
 
 ### To study (P):
 
@@ -642,5 +689,5 @@ dir \a
 
 ## Resources:
 
-
 - masgrave.dev: For Downloading windows versions
+- domain appraisal checking website: estibot.com
