@@ -643,6 +643,27 @@ ls {*.txt, *.pdf}
 - Name Servers
 - Technical and Administrative Contacts
 
+# Class
+
+## DNS Server
+
+### How DNS Server works?
+
+- `Root DNS` Servers and in 13 in numbers, operated by various organization.
+    - what does these server stores:
+        - they do not stores actual domains-to-IP mapping (like example.com --> 10.10.4.5) Instead
+        they stores and server the information about the location of Top-Level Domain (TLD) Name Server.
+        - so they have the list of the TLDs servers (like of .com servers etc.)
+        - they stores the `names and IPs` of the TLDs nameservers.
+> In the May 2025 survey we received responses from 1,227,232,638 sites across 277,546,948 domains and 13,470,692 web-facing computers. This reflects an increase of 8.9 million sites, 47,981 domains, and 29,625 web-facing computers. (from: https://www.netcraft.com/blog/may-2025-web-server-survey)
+
+- `TLD Name Server`: servers used to manage the TLD domains records.
+    - again this does not store the IP, it only provide the nameserver IP/Information.A
+
+- `Authoritative Name Server` (Domain's Name Servers)
+    - The `Authoritative Nameserver` holds the actual domains IP address.
+
+
 ## Resource and HomeWork
 
 ### To study:
@@ -670,6 +691,7 @@ ls {*.txt, *.pdf}
 4. Quick Pinout Table
 5. 91 CRPC
 6. Registeries in Windows
+7. Search about the TLDs server and the real functioning all system works.
 
 ### Practical:
 
@@ -691,3 +713,5 @@ ls {*.txt, *.pdf}
 
 - masgrave.dev: For Downloading windows versions
 - domain appraisal checking website: estibot.com
+- netcraft.com: survey website for doamin information
+- iana.org (root domain reference): https://www.iana.org/domains/root/db
