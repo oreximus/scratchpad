@@ -1924,6 +1924,79 @@ Addresses:  2606:50c0:8001::153
   - ipconfig /displaydns: to show the dns cache
   - ipconfig /flushdns: to remove the dns cache
 
+# Class 23 - I
+
+- `echo $?` command to check exit code:
+
+```
+echo $?
+```
+
+### Redirection
+
+- `Standard Data Streams`: In Unix-like operating systems, three `standard data streams` are
+  provided for input
+
+1. `Standard Input (stdin)`:
+   - `File Descriptor`: 0
+   - `Default`: Keyboard Input
+   - `Can be redirected` to read data from files or other commands.
+
+- taking input from a bash script file
+
+- piping input to a command
+
+```
+cat /etc/passwd | wc -l
+```
+
+- interactive tools using stdin
+
+```
+bc
+```
+
+- stdin form /dev/stdin
+
+```
+cat /dev/stdin
+```
+
+2. Standard Output (stdout)
+
+- `Standard Output`: is one of the three standard data streams in Unix-like operating systems,
+  represented by `file descriptor 1`.
+
+- keeping the ls output in the files
+
+```
+ls -1 > list_output.txt
+```
+
+3. `Standard Error` STDERR
+
+- ls nonexistentfile
+
+```
+ls nonexistentfile 2>error.txt
+```
+
+- cat /etc/passwd /etc/shadow as a normal user
+
+```
+cat /etc/passwd /etc/shadow 1>output.txt 2>error.txt
+```
+
+- combine both stdout and stderr:
+
+```
+cat /etc/passwd /etc/shadow &>both_error.txt
+```
+
+```
+cat /etc/passwd /etc/shadown >both_error.txt 2>&1
+```
+
 ## Resource and HomeWork
 
 ### To study:
