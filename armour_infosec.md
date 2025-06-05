@@ -1997,6 +1997,14 @@ cat /etc/passwd /etc/shadow &>both_error.txt
 cat /etc/passwd /etc/shadown >both_error.txt 2>&1
 ```
 
+# Class 23 - II
+
+- `Root Domain Server`
+- `TLD Nameserver`
+- `Authoritative Nameserver`
+- `Recursive (caching) DNS Server`
+- `Forwarding DNS Server`
+
 ## Resource and HomeWork
 
 ### To study:
