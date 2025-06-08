@@ -40,10 +40,8 @@ nest new project-name
 ## Understanding the nest.js project structure:
 
 - `node_modules`: Contains all the libraries that are required for your project.
-
 - `src`: Contains your application source code, Under this directory nest.js has generated a starter
   code:
-
 - `app.controller.spec.ts`: Contains unit test cases for each controller implementation
 - `app.controller.ts`: Contains the implementation of the API.
 - `app.service.ts`: Contains business logic which will be used in the controller.
