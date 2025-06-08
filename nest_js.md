@@ -42,9 +42,23 @@ nest new project-name
 - `node_modules`: Contains all the libraries that are required for your project.
 
 - `src`: Contains your application source code, Under this directory nest.js has generated a starter
-  code: - `app.controller.spec.ts`: Contains unit test cases for each controller implementation - `app.controller.ts`: Contains the implementation of the API. - `app.service.ts`: Contains business logic which will be used in the controller. - `app.module.ts`: Contains imports, exports and DI (Dependency Injection). - `main.ts`: Contains implementation to bootstrap the application. This is the starting point
-  of your application. - `test`: Contains E2E test case implementations. - `.eslintrc.js` Contains lint configuration that helps to identify incorrect syntax, typescript
-  standards and more... - `.gitignore`: Contains files and directories to ignore when pushing the code to GitHub - `.prettierc`: Contains prettier config to format your code. - `nest-cli.json`: Basic nest.js configuration. - `package.json`: Contains documentation of your project. - `README.md`: Contains documentation of your project. - `tsconfig.json`: Contains typescript configuration.
+  code:
+
+- `app.controller.spec.ts`: Contains unit test cases for each controller implementation
+- `app.controller.ts`: Contains the implementation of the API.
+- `app.service.ts`: Contains business logic which will be used in the controller.
+- `app.module.ts`: Contains imports, exports and DI (Dependency Injection).
+- `main.ts`: Contains implementation to bootstrap the application. This is the starting point
+  of your application.
+- `test`: Contains E2E test case implementations.
+- `.eslintrc.js` Contains lint configuration that helps to identify incorrect syntax, typescript
+  standards and more...
+- `.gitignore`: Contains files and directories to ignore when pushing the code to GitHub
+- `.prettierc`: Contains prettier config to format your code.
+- `nest-cli.json`: Basic nest.js configuration.
+- `package.json`: Contains documentation of your project.
+- `README.md`: Contains documentation of your project.
+- `tsconfig.json`: Contains typescript configuration.
 
 ## Creating our first API
 
