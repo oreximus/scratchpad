@@ -57,3 +57,11 @@ Your suggested endpoints:
 
 take the reference from my flow and provide me these enpoints!
 ```
+
+- taking server API flow reference to provide the similar functionality:
+
+```
+I've provided you the flow of the APIs from my nodejs server, that How I structured my code, based on that can you provide the essential mentioned in my screenshot, also do suggest me the better way to do what I'm trying to do,
+also the notification will trigger right now in the case of task creation only for just now, to test, with clean flow that's referenced here for you.
+the notification message, will going to the use who is assigned the task to
+```
