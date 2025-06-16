@@ -10,7 +10,7 @@
 1. (One) Windows Server 2022 or Any Later version VM (For Server)
    - With at least `2 processor`, from the system tab of virtualbox VM settings
    - At leat `4Gb` of RAM
-   - **Most Important**: skip unattendent installation option to be checked while configuring
+   - **Most Important**: skip unattended installation option to be checked while configuring
      the VM for the first time.
 
 ![server_img01](assets/images/server_img01.png)
