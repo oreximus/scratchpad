@@ -13,6 +13,8 @@
    - **Most Important**: skip unattended installation option to be checked while configuring
      the VM for the first time.
 
+- Remember while you in the Windows Server Installation Setup: select the `Server with Desktop Experience`
+
 ![server_img01](assets/images/server_img01.png)
 
 2. (Two) Windows Enterprise or Windows Professional OS VM (For Client)
