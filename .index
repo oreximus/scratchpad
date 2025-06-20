@@ -3,7 +3,7 @@ Hacktoberfest.md
 Log_Analysis_Project.md
 ctf_resources.md
 CTF_Playing.md
-CTF_01.md
+
 Handy_Guide.md
 Note_Taking.md
 
@@ -13,7 +13,7 @@ PythonNetworkScanner.md
 Flask_Env.md
 NetworkScanner.md
 flask_login.md
-project_01.md
+
 windows_wsl.md
 SIH_project.md
 ScanTrigger.md
@@ -38,15 +38,19 @@ typescript.md
 daasu_app.md
 ctf_cheatsheet.md
 prompts.md
-nest_js.md
+
 assets
-myscratchnotes.md
-secondary_dns_server_armour.md
-text_editor_armour.md
-linux_notes_13Jun.md
-NetBIOS.md
+
+
+
+
+
 win_server_lab.md
 centos_vm_installation.md
-18JunClass01.md
-18JunClass02.md
-carrom_game_cost_analysis.md
+
+
+
+CTF.md
+nest.md
+project.md
+to_delete.txt
