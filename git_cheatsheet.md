@@ -6,3 +6,9 @@
 ```
 
 ```
+
+- to sync up the current selected branch with the main branch:
+
+```
+git merge origin/main
+```
