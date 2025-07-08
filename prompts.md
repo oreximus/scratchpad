@@ -66,6 +66,19 @@ also the notification will trigger right now in the case of task creation only f
 the notification message, will going to the use who is assigned the task to
 ```
 
+- SIR structure backend reimplementation with our custom DB:
+
+```
+take the reference from existing admin app APIs from user APIs flow or available APIs flow under admin/
+routes, controllers, services and validate_schema,
+
+based on the anantpragya.sql file (mysql database exported file) contains my new blogging website database,
+
+provide all of the needed authentication APIs for users according to the database structure I've, take existing admin APIs flow to structure the code in that way using properly messages, error handling, schema following, etc. with all of the need models and all
+
+under app/ and that followed the same code organized way: routes, controllers, services and validate_schema
+```
+
 ## For Database:
 
 ```
