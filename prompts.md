@@ -65,3 +65,11 @@ I've provided you the flow of the APIs from my nodejs server, that How I structu
 also the notification will trigger right now in the case of task creation only for just now, to test, with clean flow that's referenced here for you.
 the notification message, will going to the use who is assigned the task to
 ```
+
+## For Database:
+
+```
+I want you to provide me the sql to build make these tables in my mysql database with the database name "Your-DB-Name" also, keep in mind there shouldn't be any foreign key relation in the tables, I'll identify them with the normal id columns as I've described for my personal convenience,
+
+also provide the needed default values setting where required
+```
