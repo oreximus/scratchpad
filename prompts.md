@@ -86,3 +86,20 @@ I want you to provide me the sql to build make these tables in my mysql database
 
 also provide the needed default values setting where required
 ```
+
+## For Next FrontEnd:
+
+### Blogging Website:
+
+```
+this is postman collection with the examples of the APIs that I'm currently using,
+
+what you need to modify in the blog:
+1. provide the perfect APIs integration for creating new blog post, (a good UI improvement to be able find and write new blogposts, use existing page for improvisation).
+2. provide the posts control in the user dashboard, (for edit and delete the post)
+3. provide the good editor (user-friendly for the blogging feature)
+4. provide the good dynamic routing for displaying posts by categories and also I've attached you the current database file, for having idea of currently present blogs and blog categories data, (so you can remove the hard coded not needed things from the frontEnd, we will use the dynamic data showing all here,)
+5. also balance some of the colors in the UI hence someplaces the text is dull and colors are not that pleasing,
+6. follow good state management and smooth site optimizations,
+7. remember to follow practices without breaking anything analyze and do things correctly without any errors
+```
