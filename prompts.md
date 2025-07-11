@@ -103,3 +103,11 @@ what you need to modify in the blog:
 6. follow good state management and smooth site optimizations,
 7. remember to follow practices without breaking anything analyze and do things correctly without any errors
 ```
+
+- for enhancing the pre-existing APIs according to the frontEnd form:
+
+```
+this is the page for creating post checkout the post creation related APIs from my Backend codes flows, and provide the these fields related form data submissions for the database and the post creation logic,
+
+also for more of your reference I've provided you the entire database files and there are models in the the nodejs code do take reference from the things that you needed and do provide any SQL if there is any changes required in the database (we're not using foreign key relation, keep in mind that)
+```
