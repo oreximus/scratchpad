@@ -111,3 +111,23 @@ this is the page for creating post checkout the post creation related APIs from 
 
 also for more of your reference I've provided you the entire database files and there are models in the the nodejs code do take reference from the things that you needed and do provide any SQL if there is any changes required in the database (we're not using foreign key relation, keep in mind that)
 ```
+
+## For AWS S3 bucket:
+
+```
+I've provided you backend code,
+I've the AWS s3 bucket connected with these details in my .env:
+
+# AWS S3 Configuration
+AWS_REGION_NAME=ap-south-1
+AWS_ACCESS_KEY_ID=*******************
+AWS_SECRET_ACCESS_KEY=**************************8
+AWS_STORAGE_BUCKET_NAME=anantpragya-data
+AWS_S3_ENDPOINT_URL=https://anantpragya-data.s3.ap-south-1.amazonaws.com
+AWS_MEDIA_ROOT=media
+
+now in my node api flow in post creation where I'm using the file uploading function provide me the proper integration that uses AWS s3 for uploading files there, from models of tables for storing the post data with file associated with posts, you get the better Idea, what to store as file path in the tables and other data related to files,
+
+provide these integration properly
+
+```
