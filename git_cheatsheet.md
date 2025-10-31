@@ -12,3 +12,9 @@
 ```
 git merge origin/main
 ```
+
+- to fetch all of the remote branch locally:
+
+```
+for branch in $(git branch -r | grep -v "\->" | grep -v HEAD | grep origin/); do git branch --track "${branch#origin/}" "$branch" 2>/dev/null || true; done
+```
